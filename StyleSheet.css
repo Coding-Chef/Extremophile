@@ -1,0 +1,196 @@
+html
+{
+	background-image: linear-gradient(to right, silver, white, silver); 		/*Sets background*/
+	background-size: cover;
+}
+h1 /*Banners*/
+{
+	background-color: #cccccc;
+	background-image: linear-gradient(blue, white, teal);
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma, geneva, sans-serif;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	border-width: 4px;
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+}
+h2
+{
+	background-color: #cccccc;
+	background-image: linear-gradient(blue, white, teal);
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma, geneva, sans-serif;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	border-width: 4px;
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+}
+nav /* Formats the navigation bar */
+{
+	position: sticky; /* Fixes the nav bar to the top of the page when scrolling */
+	top: 0;
+	width: 100%;
+}
+ul/* Formats the list */
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: teal;
+}
+li /* makes the tabs left to right */
+{
+	float: left;
+}
+li a /* Formats the tabs in the nav bar */
+{
+	display: block;
+	color: white;
+	font-family: verdana, geneva, sans-serif;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active)/* Changes the colour of the tab you hover over */
+{
+	background-color: #fc6c85;
+}
+.active/* leaves the active tab a different colour */
+{
+	background-color: #111;
+}
+
+.indeximg /* Formats photos on index page */
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+#indexp1 /* Formats the first paragraph on index */
+{
+	font-size: 25px;
+	text-align: center;
+	font-family: verdana, geneva, sans-serif;
+}
+footer /* Formats the footer */
+{
+	background-color: teal;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-family: arial, geneva, sans-serif;
+}
+#owner
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial, geneva, sans-serif;
+}
+#ownerHead
+{
+	text-decoration: underline;
+	font-family: arial, geneva, sans-serif;
+}
+#extremophile
+{
+	text-align: right;
+	font-family: arial, geneva, sans-serif;
+}
+#theFire /*Formats The Fire header*/
+{
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: arial, geneva, sans-serif;
+}
+table, th, td /*Formats the opening hours table*/
+{
+	border: 1px solid black;
+	height: 50px;
+	width: 800px;
+	text-align: center;
+	font-family: verdana, geneva, sans-serif;
+	background-color: teal;
+	color: white;
+}
+table.center /* Centeres the table in the page*/
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td:hover  /* Changes the colour of the cells when hovered over*/
+{
+	background-color: #fc6c85;
+}
+.snowBPara /* Formats the paragraphs on snowboarding page*/
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial, geneva, sans-serif;
+}
+.snowBimg /* Formats the images on snowboarding page*/
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.downhillPara /* Formats the paragraphs on DownhillBiking page*/
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial, geneva, sans-serif;
+}
+.downhillImg /* Formats the images on DownhillBiking page*/
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+#contactP
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial, geneva, sans-serif;
+}
+input/* Formats input areas form*/
+{
+	border-style: solid;
+	border-radius: 5px;
+}
+#contactForm /* Formats the contact form*/
+{
+	text-align: center;
+	font-size: 18px;
+	font-family: arial, geneva, sans-serif;
+}
+
+.form-button /* Formats the sumbit/reset buttons*/
+{
+	background-color: teal;
+	color: white;
+	font-size: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#response
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial, geneva, sans-serif;
+}
