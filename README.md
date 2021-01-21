@@ -1,3 +1,1 @@
-# First website
-
-First website I made for school
+Adding the same website through command prompt to practice git
