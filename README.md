@@ -1,1 +1,2 @@
-Adding the same website through command prompt to practice git
+Website for an extreme sport store.
+Added this through git to practice.
